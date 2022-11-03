@@ -16,7 +16,7 @@ requirements:
   build:
     - {{ compiler('cxx') }}
     - cmake
-    - make # [linux]
+    - make  # [linux]
   host:
     - eigen
     - python
