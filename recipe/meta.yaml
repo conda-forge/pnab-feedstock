@@ -37,7 +37,7 @@ test:
     - pytest
   commands:
     - call set BABEL_DATADIR=%PREFIX%\share\openbabel  # [win]
-    - python -c "import pnab; pnab.test()"
+    - python -c "import pnab, sys; sys.exit(pnab.test())"
 
 about:
   home: https://github.com/GT-NucleicAcids/pnab
