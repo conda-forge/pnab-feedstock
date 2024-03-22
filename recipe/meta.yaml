@@ -20,7 +20,7 @@ requirements:
   host:
     - eigen
     - python
-    - openbabel
+    - openbabel =3.0
     - pybind11
   run:
     - python
