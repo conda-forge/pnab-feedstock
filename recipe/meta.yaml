@@ -25,7 +25,7 @@ requirements:
   run:
     - python
     - numpy
-    - openbabel >=3
+    - openbabel =3.0
     - ipywidgets >=7.5, <8
     - nglview >=2.7, <3
     - pyyaml
