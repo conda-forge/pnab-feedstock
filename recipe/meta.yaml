@@ -23,7 +23,7 @@ requirements:
     - openbabel
     - pybind11 <2.10
   run:
-    - python
+    - python <3.11
     - numpy
     - openbabel >=3
     - ipywidgets >=7.5
