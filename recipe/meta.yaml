@@ -26,9 +26,10 @@ requirements:
     - python
     - numpy
     - openbabel >=3
-    - ipywidgets >=7.5
-    - nglview >=2.7
+    - ipywidgets >=7.5, <8
+    - nglview >=2.7, <3
     - pyyaml
+    - jupyterlab =3
 
 test:
   imports:
