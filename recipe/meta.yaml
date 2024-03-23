@@ -20,12 +20,12 @@ requirements:
   host:
     - eigen
     - python
-    - openbabel =3.0
+    - openbabel =3.1
     - pybind11
   run:
     - python
     - numpy
-    - openbabel =3.0
+    - openbabel =3.1
     - ipywidgets >=7.5, <8
     - nglview >=2.7, <3
     - pyyaml
@@ -38,6 +38,7 @@ test:
     - pytest
   commands:
     - call set BABEL_DATADIR=%PREFIX%\share\openbabel  # [win]
+    - export BABEL_DATADIR=$PREFIX/share/openbabel  # [osx]
     - python -c "import pnab; pnab.test()"
 
 about:
