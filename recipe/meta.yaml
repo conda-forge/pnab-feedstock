@@ -12,6 +12,9 @@ source:
 build:
   number: 0
 
+build:
+  skip: True  # [osx]
+
 requirements:
   build:
     - {{ compiler('cxx') }}
@@ -30,9 +33,6 @@ requirements:
     - nglview >=2.7, <3
     - pyyaml
     - jupyterlab =3
-    - eigen  # [osx]
-    - pybind11  # [osx]
-    - pybind11-global  # [osx]
 
 test:
   imports:
