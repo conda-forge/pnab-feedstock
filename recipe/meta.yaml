@@ -30,9 +30,9 @@ requirements:
     - nglview >=2.7, <3
     - pyyaml
     - jupyterlab =3
-    - eigen # [osx]
-    - pybind # [osx]
-    - pybind11-global # [osx]
+    - eigen  # [osx]
+    - pybind  # [osx]
+    - pybind11-global  # [osx]
 
 test:
   imports:
