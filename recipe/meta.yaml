@@ -31,7 +31,7 @@ requirements:
     - pyyaml
     - jupyterlab =3
     - eigen  # [osx]
-    - pybind  # [osx]
+    - pybind11  # [osx]
     - pybind11-global  # [osx]
 
 test:
