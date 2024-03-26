@@ -30,6 +30,9 @@ requirements:
     - nglview >=2.7, <3
     - pyyaml
     - jupyterlab =3
+    - eigen # [osx]
+    - pybind # [osx]
+    - pybind11-global # [osx]
 
 test:
   imports:
@@ -38,7 +41,6 @@ test:
     - pytest
   commands:
     - call set BABEL_DATADIR=%PREFIX%\share\openbabel  # [win]
-    - conda list  # [osx]
     - python -c "import pnab; pnab.test()"
 
 about:
