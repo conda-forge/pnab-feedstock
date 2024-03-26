@@ -38,7 +38,7 @@ test:
     - pytest
   commands:
     - call set BABEL_DATADIR=%PREFIX%\share\openbabel  # [win]
-    - export BABEL_DATADIR=$PREFIX/share/openbabel/3.1.0  # [osx]
+    - conda list  # [osx]
     - python -c "import pnab; pnab.test()"
 
 about:
